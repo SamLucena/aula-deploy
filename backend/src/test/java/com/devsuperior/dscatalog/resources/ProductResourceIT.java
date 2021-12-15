@@ -17,7 +17,6 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
 
 import com.devsuperior.dscatalog.dto.ProductDTO;
-import com.devsuperior.dscatalog.services.ProductService;
 import com.devsuperior.dscatalog.tests.Factory;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -28,9 +27,6 @@ public class ProductResourceIT {
 
 	@Autowired
 	private MockMvc mockMvc;
-	
-	@Autowired
-	private ProductService service;
 	
 	@Autowired
 	private ObjectMapper objectMapper;
